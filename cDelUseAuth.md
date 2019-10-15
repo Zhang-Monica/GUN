@@ -1,7 +1,7 @@
 ## 1. 接口描述  
-服务接口：(cDelUserInfo)删除用户账户  
+服务接口：(cDelUseAuth)申请解除使用授权  
 接口描述：xxxxx  
-请求说明：POST https://epeis.com/Service/1.0.0/cDelUserInfo  
+请求说明：POST https://epeis.com/Service/1.0.0/cDelUseAuth  
   
 ## 2. 输入参数  
 公共请求参数说明，参数对象名：SYS_HEAD，参数对象类型：object  
