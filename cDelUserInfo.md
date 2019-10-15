@@ -1,6 +1,6 @@
 ## 1. 接口描述  
 服务接口：(cDelUserInfo)删除用户账户  
-接口描述：xxxxx  
+接口描述：用户未被认证之前可以删除用户账户
 请求说明：POST https://epeis.com/Service/1.0.0/cDelUserInfo  
   
 ## 2. 输入参数  
