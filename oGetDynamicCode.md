@@ -33,8 +33,8 @@
 	"INOUT_VERIFYCODE":	[{
 			"OBJECT_INFO":	"",
 			"OBJECT_TYPE":	"",
-			"REGISTER_INFO":	"",
-			"REGISTER_TYPE":	"",
+			"REGISTER_INFO":"",
+			"REGISTER_TYPE":"",
 			"INPUT_YESNO":	""
 		}]
 }  
