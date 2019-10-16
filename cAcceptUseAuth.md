@@ -1,7 +1,7 @@
 ## 1、接口描述  
-服务接口：(cAccOwnerChange)接受所有权人变更  
+服务接口：(cAcceptUseAuth)接受使用授权  
 接口描述：xxxxx  
-请求说明：POST https://epeis.com/Service/1.0.0/cAccOwnerChange  
+请求说明：POST https://epeis.com/Service/1.0.0/cAcceptUseAuth  
   
 ## 2、服务接口请求参数  
 #### 2.1、公共请求参数  

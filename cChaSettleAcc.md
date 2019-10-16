@@ -1,7 +1,7 @@
 ## 1、接口描述  
-服务接口：(cAccOwnerChange)接受所有权人变更  
+服务接口：(cChaSettleAcc)申请结算户变更  
 接口描述：xxxxx  
-请求说明：POST https://epeis.com/Service/1.0.0/cAccOwnerChange  
+请求说明：POST https://epeis.com/Service/1.0.0/cChaSettleAcc  
   
 ## 2、服务接口请求参数  
 #### 2.1、公共请求参数  
@@ -15,13 +15,12 @@
 | ACCOUNT_DID       |  是  | String   | 16位账户ID，必须激活 |  
   
 #### 2.2、请求参数  
-本服务接口请求参数说明，参数对象名：USER_ACCOUNT，参数对象类型：Array，请求参数描述：xxxxx  
+本服务接口请求参数说明，参数对象名：SETTLE_ACCOUNT，参数对象类型：Array，请求参数描述：xxxxx  
   
 
 | 参数              | 必选 | 类型     | 描述             |  
 | :----------------- | :----: | :-------- | :---------------- |  
-| USER_ACCOUNT_AID |  是  | String   | xxxxx |  
-| ATTESTATION_TYPE |  是  | String   | xxxxx |  
+| SETTLEMENT_AID |  是  | String   | xxxxx |  
 #### 2.3、请求参数报文示例  
 ~~~  
 {
@@ -31,9 +30,8 @@
 		"REGISTER_DID":	"",
 		"ACCOUNT_DID":	""
 	},
-	"USER_ACCOUNT":	[{
-			"USER_ACCOUNT_AID":	"",
-			"ATTESTATION_TYPE":	""
+	"SETTLE_ACCOUNT":	[{
+			"SETTLEMENT_AID":	""
 		}]
 }  
 ~~~  

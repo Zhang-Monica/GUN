@@ -1,7 +1,7 @@
 ## 1、接口描述  
-服务接口：(cAccOwnerChange)接受所有权人变更  
+服务接口：(cAccPassReset)客户密码重置  
 接口描述：xxxxx  
-请求说明：POST https://epeis.com/Service/1.0.0/cAccOwnerChange  
+请求说明：POST https://epeis.com/Service/1.0.0/cAccPassReset  
   
 ## 2、服务接口请求参数  
 #### 2.1、公共请求参数  
@@ -12,16 +12,16 @@
 | CHANNEL_DID | 是 | String | 16字符渠道号 |  
 | DYNAMIC_KEY | 是 | String | 动态请求密钥 |  
 | REGISTER_DID      |  是  | String   | 16位注册ID，必须实名 |  
-| ACCOUNT_DID       |  是  | String   | 16位账户ID，必须激活 |  
+| ACCOUNT_DID       |  是  | String   | 16位账户ID，可不激活 |  
   
 #### 2.2、请求参数  
-本服务接口请求参数说明，参数对象名：USER_ACCOUNT，参数对象类型：Array，请求参数描述：xxxxx  
+本服务接口请求参数说明，参数对象名：CUS_ACCOUNT，参数对象类型：Array，请求参数描述：xxxxx  
   
 
 | 参数              | 必选 | 类型     | 描述             |  
 | :----------------- | :----: | :-------- | :---------------- |  
-| USER_ACCOUNT_AID |  是  | String   | xxxxx |  
-| ATTESTATION_TYPE |  是  | String   | xxxxx |  
+| ACCOUNT_PASSWORD |  是  | String   | xxxxx |  
+| VERIFY_CODE |  是  | String   | xxxxx |  
 #### 2.3、请求参数报文示例  
 ~~~  
 {
@@ -31,9 +31,9 @@
 		"REGISTER_DID":	"",
 		"ACCOUNT_DID":	""
 	},
-	"USER_ACCOUNT":	[{
-			"USER_ACCOUNT_AID":	"",
-			"ATTESTATION_TYPE":	""
+	"CUS_ACCOUNT":	[{
+			"ACCOUNT_PASSWORD":	"",
+			"VERIFY_CODE":	""
 		}]
 }  
 ~~~  
